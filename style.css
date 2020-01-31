@@ -46,3 +46,180 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* CSS RESET*/
+body{
+  margin: auto;
+  background-color: white;
+  border: 10px solid #697487;
+}
+main{
+  width: 100%;
+
+}
+header{
+
+  width:90%;
+}
+nav{
+	margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+	padding-top: 10%;
+	padding-bottom: 1%;
+	border-bottom: 1px solid black;
+
+}
+nav a{
+  margin-left: 5%;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  border: 4px solid red;
+  padding: 0.5em;
+
+}
+.Bio{
+  width: 80%;
+  margin:auto;
+  padding-top: 10%;
+}
+
+.Profile{
+  padding: 2%;
+  color: black;
+  opacity: 1;
+  text-align: center;
+}
+.Avatar{
+  width: 20%;
+  margin: auto;
+  opacity: 1;
+}
+
+.Avatar img{
+  width: 90%;
+  border-radius: 50%;
+  border: 4px solid Red;
+  height: auto;
+  transition: .5s ease;
+}
+.LinkContact{
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+
+}
+.LinkContact a{
+  border: 5px solid red;
+  padding: 5px;
+  background-color: red;
+}
+.Avatar:hover img{
+  opacity: 0.3;
+}
+.Avatar:hover .LinkContact{
+  opacity: 1;
+}
+
+.slider{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+	border: 5px solid #697487;
+	border-radius: 10px;
+	background-color: #697487;
+
+}
+
+.slides{
+  width: calc(100% *3);
+  display: flex;
+  flex-direction: row;
+}
+
+.slides img{
+  width: 80%;
+	opacity: 0.8;
+}
+
+.button{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container{
+	position: relative;
+	padding-bottom: 30%;
+}
+.Projects{
+	background-color: red;
+	padding-top: 2%;
+	padding-bottom: 6%;
+	margin-top: 2%;
+}
+
+.experiences{
+	width: 90%;
+	position: absolute;
+	z-index: 2;
+	margin: auto;
+	background-color: white;
+	box-shadow: 1px 1px #697487;
+	border-radius: 10px;
+	padding-top: 2%;
+	padding-bottom:  10%;
+	margin-bottom: 2%;
+	top: 48vw;
+	left: 5%;
+}
+
+.slide{
+  float: left;
+  animation: glisse 30s infinite;
+}
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-100%);
+  }
+  43% {
+    transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(-200%);
+  }
+  76% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2rem;
+
+}
+h1,h2,h3,h4,p,a{
+	font-family: 'Roboto Condensed', sans-serif;
+}
