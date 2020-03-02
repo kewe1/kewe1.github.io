@@ -153,9 +153,9 @@ nav a{
 
 .container{
 	position: relative;
-	padding-bottom: 30%;
+	padding-bottom: 40%;
 }
-.Projects{
+.ProjectsLinks{
 	background-color: red;
 	padding-top: 2%;
 	padding-bottom: 6%;
@@ -175,6 +175,45 @@ nav a{
 	margin-bottom: 2%;
 	top: 48vw;
 	left: 5%;
+	display: flex;
+	flex-direction: row;
+
+}
+.skills{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	padding-left: 2%;
+}
+.GoodLVL, .BeginnerLVL{
+	display: flex;
+	flex-direction: row;
+}
+.languages img{
+	width:20%;
+}
+
+.tools{
+	text-align: center;
+}
+
+.Projects{
+	width: 80%;
+}
+.SchoolGrid{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	background-color: #697487;
+}
+
+.GridElement{
+	background-color: #697487;
+	width: 10%;
+}
+
+footer{
+	background-color: red;
 }
 
 .slide{
