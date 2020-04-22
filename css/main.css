@@ -2063,6 +2063,13 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled .main-menu {
   border-color: transparent;
 }
+#logo a{
+  color:black;
+  font-weight: 500;
+}
+#header a:hover{
+  color: #bd3131;
+}
 
 @media (max-width: 673px) {
   #logo {
