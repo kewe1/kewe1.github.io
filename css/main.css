@@ -2556,6 +2556,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .single-services:hover h4 {
@@ -2913,7 +2915,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .recent-blog-area p {
   margin-bottom: 45px;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .single-recent-blog .thumb {
